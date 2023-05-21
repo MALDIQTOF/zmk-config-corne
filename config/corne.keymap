@@ -23,7 +23,7 @@
 //             | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
    &none &kp APOS	&kp COMMA	&kp DOT &kp P 	&kp Y   	&kp F		&kp G	&mt RG(C) C &kp R   &kp L    &none
-   &none &kp A &kp O 	&kp E 	&kp U 	&kp I   	&kp D 		&kp H	&kp T   &kp N   &kp S &none
+   &none &kp A &kp R 	&kp DOT &kp G &kp C	   	&kp D 	&kp H	&kp T   &kp N   &kp S &none
    &none &mt LSHIFT SEMI 	&kp Q 	&kp J 	&kp K	&mt RG(X) X &kp B 	&kp M	&kp W	&mt RG(V) V &mt RSHIFT Z &none
                 &kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
