@@ -20,25 +20,25 @@
 // |  '  |  ,  |  .  |  P  |  Y  |   |    F   |  G   |  C  |  R  |  L  |
 // |  A  |  O  |  E  |  U  |  I  |   |    D   |  H   |  T  |  N  |  S  |
 // | LS ; |  Q  |  J  |  K  |  X  |   |    B   |  M   |  W  |  V  | RS Z  |
-//             | GUI | TAB | NUM ENT|   | FN-SPC | BSPC | DEL |
+//             | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
    &none &kp APOS	&kp COMMA	&kp DOT &kp P 	&kp Y   	&kp F		&kp G	&mt RG(C) C &kp R   &kp L    &none
    &none &kp A &kp O 	&kp E 	&kp U 	&kp I   	&kp D 		&kp H	&kp T   &kp N   &kp S &none
    &none &mt LSHIFT SEMI 	&kp Q 	&kp J 	&kp K	&mt RG(X) X &kp B 	&kp M	&kp W	&mt RG(V) V &mt RSHIFT Z &none
-                &kp LGUI &lt NUM RET &kp TAB	&kp BSPC &lt FN SPACE	&kp DEL
+                &kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // | ESC  |     | F10  | F11  | F12  |   |     | HOME |  UP  | END | PGUP |
-// | CRTL |     | F7   | F8   | F9   |   |     | LFT  |  DN  | RGT | PGDN |
+// | CRTL |     | F7   | F8   | F9   |   |  TAB   | LFT  |  DN  | RGT | PGDN |
 // | LS   | OPT | F1-4 | F2-5 | F3-6 |   |     |      |     |     |     |
-//                   | GUI | TAB | NUM ENT |   | FN-SPC | BSPC | DEL |
+//                   | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
    &none &kp ESC    &none   	&kp F10    &kp F11   &kp F12	    &none   &kp HOME  &kp UP   	&kp END	  &kp PG_UP &none
-   &none &kp LCTRL &none	 	&kp F7     &kp F8	 &kp F9   		&none	&kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN &none
+   &none &kp LCTRL &none	 	&kp F7     &kp F8	 &kp F9   		&kp TAB	&kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN &none
    &none &kp LSHIFT  &kp LALT  &mt F1 F4  &mt F2 F5 &mt F3 F5      &none	&none     &none 	&none     &none &none
-                &kp LGUI &lt NUM RET &kp TAB	&kp BSPC &lt FN SPACE	&kp DEL
+                &kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
                 };
 
@@ -47,12 +47,12 @@
 // |  `~  |  <  |  >  |  (  |  )  |  |  &  |   7  |  8  |  9  |  /?  |
 // |      |  ,  |  .  |  {  |  }  |  | \|  |   4  |  5  |  6  |  =+  |
 // |  LS  |  *  |  ^  |  [  |  ]  |  |  0  |   1  |  2  |  3  |  -_  |
-//              | GUI | TAB | NUM ENT |  | SPC | BSPC | *\ |
+//              | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
    &none &kp GRAVE &kp LT		&kp	GT	  &kp LPAR 	&kp	RPAR	  &kp AMPS	   &kp N7	&kp N8	&kp N9	&kp FSLH &none
    &none &none &kp COMMA	&kp	DOT	  &kp LBRC 	&kp	RBRC	  &kp BSLH	   &kp N4	&kp N5	&kp N6 	&kp EQUAL &none
    &none &kp LSHIFT	 &kp STAR	&kp CARET &kp LBKT 	&kp	RBKT	  &kp N0 	   &kp N1	&kp N2	&kp N3	&kp MINUS &none
-             	&kp LGUI &lt NUM RET &kp TAB	&kp BSPC &lt FN SPACE	&kp DEL
+             	&kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
                 };
         };
