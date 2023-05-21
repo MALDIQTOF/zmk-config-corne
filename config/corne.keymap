@@ -30,14 +30,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC  |     | F10  | F11  | F12  |   |     | HOME |  UP  | END | PGUP |
-// | CRTL |     | F7   | F8   | F9   |   |  TAB   | LFT  |  DN  | RGT | PGDN |
-// | LS   | OPT | F1-4 | F2-5 | F3-6 |   |     |      |     |     |     |
+// | ESC  |     | F10  | F11  | F12  |   |     | HOME |  UP  | END | gu/ |
+// | CRTL |     | F7   | F8   | F9   |   |  TAB   | LFT  |  DN  | RGT | PGUP |
+// | LS   | OPT | F1-4 | F2-5 | F3-6 |   |     |      |     |     |  PGDN   |
 //                   | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
-   &none &kp ESC    &none   	&kp F10    &kp F11   &kp F12	    &none   &kp HOME  &kp UP   	&kp END	  &kp PG_UP &none
-   &none &kp LCTRL &none	 	&kp F7     &kp F8	 &kp F9   		&kp TAB	&kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN &none
-   &none &kp LSHIFT  &kp LALT  &mt F1 F4  &mt F2 F5 &mt F3 F5      &none	&none     &none 	&none     &none &none
+   &none &kp ESC    &none   	&kp F10    &kp F11   &kp F12	    &none   &kp RG(LEFT)  &kp UP   	&kp RG(RIGHT)	  &kp RG(FSLH) &none
+   &none &kp LCTRL &none	 	&kp F7     &kp F8	 &kp F9   		&kp TAB	&kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &none
+   &none &kp LSHIFT  &kp LALT  &mt F1 F4  &mt F2 F5 &mt F3 F5      &none	&none     &none 	&none     &kp PG_DN &none
                 &kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
                 };
