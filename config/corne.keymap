@@ -37,7 +37,7 @@
                         bindings = <
    &none &kp ESC    &none   	&kp F10    &kp F11   &kp F12	    &none   &kp RG(LEFT)  &kp UP   	&kp RG(RIGHT)	  &kp RG(BSLH) &none
    &none &kp LCTRL &none	 	&kp F7     &kp F8	 &kp F9   		&kp TAB	&kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &none
-   &none &kp LSHIFT  &kp LALT  &mt F1 F4  &mt F2 F5 &mt F3 F5      &none	&none     &none 	&none     &kp PG_DN &none
+   &none &kp LSHIFT  &kp LALT  &mt F1 F4  &mt F2 F5 &mt F3 F5      &bt BT_CLR	&none     &none 	&none     &kp PG_DN &none
                 &kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
                 };
