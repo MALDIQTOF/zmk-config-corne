@@ -49,8 +49,8 @@
 // |  LS  |  *  |  ^  |  [  |  ]  |  |  0  |   1  |  2  |  3  |  -_  |
 //              | GUI | NUM TAB | ENT|   | FN-BSPC | SPC | DEL |
                         bindings = <
-   &none &kp GRAVE &kp LS(W)		&kp	LS(V)	  &kp LPAR 	&kp	RPAR	  &kp AMPS	   &kp N7	&kp N8	&kp N9	&kp LBKT &none
-   &none &none &kp W	&kp	V	  &kp UNDER 	&kp	PLUS	  &kp BSLH	   &kp N4	&kp N5	&kp N6 	&kp RBKT &none
+   &none &kp GRAVE &kp LS(W)		&kp	LS(E)	  &kp LPAR 	&kp	RPAR	  &kp AMPS	   &kp N7	&kp N8	&kp N9	&kp LBKT &none
+   &none &none &kp W	&kp	E	  &kp UNDER 	&kp	PLUS	  &kp BSLH	   &kp N4	&kp N5	&kp N6 	&kp RBKT &none
    &none &kp LSHIFT	 &kp STAR	&kp CARET &kp MINUS 	&kp	EQUAL	  &kp N0 	   &kp N1	&kp N2	&kp N3	&kp APOS &none
              	&kp LGUI &lt NUM TAB &kp RET	&lt FN BSPC &kp SPACE	&kp DEL
                         >;
